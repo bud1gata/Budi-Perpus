@@ -1,0 +1,30 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  input[type="text"], select {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .shelf {
+    margin-top: 20px;
+  }
+  
+  .book-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .book-card button {
+    margin-top: 5px;
+  }
+  

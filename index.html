@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perpustakaan budi App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Perpustakaan Budi</h1>
+    <input type="text" id="title" placeholder="Judul">
+    <input type="text" id="author" placeholder="Pengarang">
+    <select id="status">
+      <option value="Belum dibaca">Belum Dibaca</option>
+      <option value="Sudah dibaca">Sudah Dibaca</option>
+    </select>
+    <button onclick="addBook()">tambah buku</button>
+    <div id="bookshelf">
+      <div class="shelf" id="unreadShelf">
+      </div>
+      <div class="shelf" id="readShelf">
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
